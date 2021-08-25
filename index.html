@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c24072bc3e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="nav_bar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skill" class="menu-btn">Skills</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>      
+    </nav>
+
+    <!--home section start-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Nguyen Khoi Hoang.</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+            </div>
+        </div>
+    </section>
+    <!--about section start-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">—About me—</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <i class="fas fa-address-card"></i>
+                </div>
+                <div class="column right">
+                    <div class="text"> I'm Khoi and I'm a <span class="typing-2"></span></div>
+                    <p>I love computer and I have been programming 5 years. My favorite part about programming is algorithm and data structures. I believe the core of those is Mathematics. That's why I decided to study Bachelor of Mathematics at University of Waterloo. My major is Combinatorics and Optimization which I believe will enhance my programming ability. Additionally, I also minor in Computer Science and self-learning in my free time to improve my coding skills. My goal is to become a back-end developer in Artifical Intelligence field where I can have fun with algorithm and data structures. </p>
+                    <a href="#">Download my Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skill section start-->
+    <section class="skill" id="skill">
+        <div class="max-width">
+            <h2 class="title">—My skills—</h2>
+            <div class="skill-content">             
+                <div class="top">
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-html5"></i>
+                            <div class="text">HTML5</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-css3-alt"></i>
+                            <div class="text">CSS3</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-python"></i>
+                            <div class="text">Python</div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="bottom">
+                    <div class="column left">
+                        <img src="logo.png">
+                    </div>
+                    <div class="column right">
+                        <div class="text">C, C#, C++</div>
+                        <p>Extremely experience in C, C# and C++ developed through various project and more than 5 years practicing. </p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!--contact section start-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">—Contact me—</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">Nguyen Khoi Hoang</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Mississauga, Ontario, Canada</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">khoihoang1207@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required></input>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required></input>
+                            </div>                            
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Title" required></input>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Detail" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>            
+            </div>
+        </div>
+    </section>
+    <!--footer section start-->
+    <footer>
+        <span>Created By Nguyen Khoi Hoang. Inspired by <a href="https://www.codingnepalweb.com/">CodingNepal.</a></span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

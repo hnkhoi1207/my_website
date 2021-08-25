@@ -1,0 +1,29 @@
+<section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="text"> I'm Khoi and I'm a <span>STUDENT.</span></div>
+                <p>I love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computerI love computer and I have been programming 5 years. My favorite part about programming is algorithm and data structures. I believe the core of those is Mathematics. That's why I decided to study Bachelor of Mathematics at University of Waterloo. My major is Combinatorics and Optimization which I believe will enhance my programming ability. Additionally, I also minor in Computer Science and self-learning in my free time to improve my coding skills. My goal is to become a back-end developer in Artifical Intelligence field where I can have fun with algorithm and data structures. </p>
+                <a href="#">Download my Resume</a>
+            </div>
+        </div>
+    </section>
+
+    /* about section styling */
+.about {
+    font-family: 'Open Sans', sans-serif;
+}
+.about .title{
+    position: relative;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+.about .about-conetnt {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
